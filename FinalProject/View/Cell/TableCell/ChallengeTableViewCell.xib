@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="151" id="KGk-i7-Jjw" customClass="ChallengeTableViewCell" customModule="FinalProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3G3-GM-8ja">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="151"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFv-ia-KYp" userLabel="遮罩">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="151"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="標題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cg-Ho-78m">
+                        <rect key="frame" x="10" y="10" width="61" height="36"/>
+                        <color key="backgroundColor" red="1" green="0.97254901959999995" blue="0.85490196080000003" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fFv-ia-KYp" secondAttribute="trailing" id="64s-p5-QEY"/>
+                    <constraint firstItem="7Cg-Ho-78m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="6dZ-7K-ath"/>
+                    <constraint firstAttribute="trailing" secondItem="3G3-GM-8ja" secondAttribute="trailing" id="9cr-NB-cRD"/>
+                    <constraint firstItem="7Cg-Ho-78m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="D3R-Jp-VXn"/>
+                    <constraint firstItem="fFv-ia-KYp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KwE-fh-M2I"/>
+                    <constraint firstItem="3G3-GM-8ja" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LNi-8u-Zux"/>
+                    <constraint firstAttribute="bottom" secondItem="3G3-GM-8ja" secondAttribute="bottom" id="U1e-HM-Ujv"/>
+                    <constraint firstAttribute="bottom" secondItem="fFv-ia-KYp" secondAttribute="bottom" id="Zct-oi-QTf"/>
+                    <constraint firstItem="3G3-GM-8ja" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gdB-sQ-weg"/>
+                    <constraint firstItem="fFv-ia-KYp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qDV-wd-oC8"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Cg-Ho-78m" secondAttribute="trailing" constant="15" id="uWl-9z-Uca"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="photo" destination="3G3-GM-8ja" id="Rhd-Qs-epa"/>
+                <outlet property="title" destination="7Cg-Ho-78m" id="ZTm-ni-73u"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="102.79017857142857"/>
+        </tableViewCell>
+    </objects>
+</document>
