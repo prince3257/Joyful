@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.5.0)
+  - JGProgressHUD (2.2)
+  - lottie-ios (3.3.0)
+  - OpenTok (2.21.2)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - SkeletonView (1.26.0)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftLint (0.45.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - JGProgressHUD
+  - lottie-ios
+  - OpenTok (~> 2.21)
+  - SDWebImage
+  - SkeletonView
+  - SwiftKeychainWrapper (~> 4.0)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JGProgressHUD
+    - lottie-ios
+    - OpenTok
+    - SDWebImage
+    - SkeletonView
+    - SwiftKeychainWrapper
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  OpenTok: 0060779ca05fca24242a10c8b9ee4982bcf7d795
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SkeletonView: 6b62a8ddbc64abb113ea3243e4a9979e5750f147
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftLint: 06ac37e4d38c7068e0935bb30cda95f093bec761
+
+PODFILE CHECKSUM: 54c6e5b54ac057a9a70c84e6ec3495179a47e3ad
+
+COCOAPODS: 1.11.2
